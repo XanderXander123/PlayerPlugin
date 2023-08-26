@@ -4,19 +4,19 @@ import java.util.Set;
 import java.lang.Integer;
 import java.util.HashSet;
 import java.util.Arrays;
-
+import org.bukkit.entity.Player;
 import org.bukkit.command.Command;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.command.CommandSender;
-
 import org.bukkit.plugin.java.JavaPlugin; public abstract class MeetAndGreat extends JavaPlugin {
 Set<Integer>set1 = new HashSet<>(Arrays.asList(1, 2, 3));   Set<Integer>set2 = new HashSet<>(Arrays.asList(1000, 2000, 3000));
 private Set<Integer> union = new HashSet<>(set1); static  Set<Command> getCommand;
+
 /*
  * 
- * NO PERPOUS FOR INTEGER
- * BUT IT IS A FUN IDEA 
- * - DESCRETE MATH
+ * 
+ * 
+ * PLAYER IS THE PLUGIN
  */
 boolean HashSet = true; @Override public void onEnable() {
 getLogger().info("Plugin Enabled Boys!"); getCommand("op JacksonMt").getExecutor(); }
