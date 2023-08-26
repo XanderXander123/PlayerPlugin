@@ -6,6 +6,11 @@ import javax.swing.*;
 
 public class GuI extends Frame {
         private TextArea codeTextArea; private TextArea outputTextArea;
+        /*
+
+        THIS IS NOT PART OF THE PROJECT
+
+        */
         private Button runButton; private Button pushButton;  private Button pullButton;
         public GuI() { setTitle("Java IDE"); setSize(800, 600); setLayout(new BorderLayout());
         codeTextArea = new TextArea(); outputTextArea = new TextArea();
